@@ -43,6 +43,7 @@ index.html
     function showApp(appId) {
         hideAll();
         document.getElementById(appId).style.display = 'block';
+        northvpn.com
         document.getElementById(appId).style.zIndex = '60';
     }
     function hideAll() {
