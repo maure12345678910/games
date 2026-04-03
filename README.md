@@ -53,3 +53,18 @@ index.html
 </script>
 </body>
 </html>
+{
+	"server" : "{Domain}",
+	"server_port" : 443,
+	"local_port" : 1080,
+	"password":"{password}",
+	"timeout":300,
+	"method":"chacha20-ietf-poly1305",
+	"mode": "tcp_only",
+	"fast_open":false,
+	"reuse_port":true,
+	"no_delay":true,
+	"plugin": "v2raу-plugin",
+	"plugin_opts":"path=/v2;host={Domain};tls",
+	"remarks" : "Private VPN"
+}
